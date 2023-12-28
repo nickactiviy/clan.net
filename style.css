@@ -1,0 +1,89 @@
+body {
+    background-color: #000;
+    color: #0F0;
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+}
+
+.matrix-effect {
+    font-size: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #0F0;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    animation: typing 4s steps(30) infinite, blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #0F0;
+    }
+}
+
+.projects {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project-link {
+    color: #0F0;
+    text-decoration: none;
+    margin-left: 10px;
+    border-bottom: 1px dashed #0F0;
+}
+
+.project-link:hover {
+    border-bottom: 1px solid #0F0;
+}
+
+.contact {
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    color: #888;
+    margin-top: 50px;
+}
